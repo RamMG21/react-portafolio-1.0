@@ -13,7 +13,8 @@ import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
-   <>
+    <>
+    
     <Header />
     <Nav />
     <About />
@@ -23,7 +24,7 @@ const App = () => {
     <Reference_letters />
     <Contact />
     <Footer />
-   </>
+    </>
   )
 }
 
