@@ -25,3 +25,52 @@ header{
     left: 0;
     bottom: 3rem;
 }
+/* ====================== ME =====================*/
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ====================== Scroll Down =====================*/
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*-------------------Media Queries (medim divices)------------------------------------ */
+
+@media screen and (max-widt: 1024px){
+
+    .container{
+        background: red;
+    }
+    header{
+        height: 68vh;
+    }
+
+}
+
+/*------------------Media Queries (small divices)-------------------------------------- */
+
+@media screen and (max-widt: 600px){
+
+    header{
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down{
+        display: none;
+    }
+
+}
