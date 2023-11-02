@@ -50,18 +50,14 @@ header{
 
 /*-------------------Media Queries (medim divices)------------------------------------ */
 
-@media screen and (max-widt: 1024px){
+@media only screen and (max-widt: 1024px){
 
-    .container{
+    .container header_container{
         background: red;
     }
-    header{
-        height: 68vh;
-    }
-
 }
 
-/*------------------Media Queries (small divices)-------------------------------------- */
+/*------------------Media Queries (small divices)-------------------------------------- 
 
 @media screen and (max-widt: 600px){
 
@@ -73,4 +69,4 @@ header{
         display: none;
     }
 
-}
+} */
